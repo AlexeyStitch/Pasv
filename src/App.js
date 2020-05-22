@@ -11,13 +11,17 @@ const rybak = (fish) => {
     console.log('Chyka ' + fish);
 }
 
+const menu = ['One', 'Two', 'Three'];
 
+const onClicked = (menu) => {
+    console.log('Clicked' + menu)
+}
 
 
 function App() {
   return (
     <div className="App">
- <Header menuItem={menuItem} leska={rybak}/>
+ <Header menuItem={menuItem} leska={rybak} menu={menu} onClicked={onClicked()}/>
  <Content />
  <Footer footerItem={footerItem} leska={rybak}/>
     </div>
