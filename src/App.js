@@ -14,7 +14,7 @@ const rybak = (fish) => {
 const menu = ['One', 'Two', 'Three', 'Four'];
 
 const onClicked = (menu) => {
-    console.log('Clicked' + menu)
+    console.log('Clicked ' + menu)
 }
 
 
